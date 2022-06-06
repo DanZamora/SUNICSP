@@ -1,0 +1,10 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Datos de Egresos",
+    "description": "Objeto de datos de egresos.",
+    "type": "object",
+    "egresos" : {
+        "fecha":"",
+        "lista": ["Lista de egresos"]
+    }    
+}

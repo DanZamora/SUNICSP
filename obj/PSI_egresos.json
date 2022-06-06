@@ -1,0 +1,18 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Datos de Egreso",
+    "description": "Objeto de datos de egreso.",
+    "type": "object",
+    "egresos" : {
+        "fecha":"Fecha del egreso.",
+        "proveedor_nombre":"Nombre del proveedor.",
+        "proveedor_cedula":"Cédula del proveedor.",
+        "proveedor_número":"Número del proveedor.",
+        "proveedor_correo":"Correo del proveedor.",
+        "servicio":"Nombre del servicio o producto.",
+        "descripción":"Descripción del servicio o producto.",
+        "detalle":"Detalle del servicio o producto.",
+        "monto":"Monto del servicio o producto.",
+        "forma_pago":"Forma de pago del servicio o producto."
+    }    
+}

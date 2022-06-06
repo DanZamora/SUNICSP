@@ -1,0 +1,11 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Datos de ingresos",
+    "description": "Objeto de datos de ingresos.",
+    "type": "object",
+    "ingresos" : {
+        "fecha":"Fecha de la lista de ingresos.",
+        "colaborador":"Colaborador a cargo del día.",
+        "lista": ["Lista de ingresos"]
+    }    
+}

@@ -1,0 +1,26 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Datos de Usuario",
+    "description": "Objeto de datos de usuario.",
+    "type": "object",
+    "usuario" : {
+        "id" : "Identificación del usuario.",
+        "nombre" : "Nombre del usuario.",
+        "contraseña": "Contraseña del usuario.",
+        "correo" : "Correo del usuario.",
+        "empresa" : "Empresa del usuario.",
+        "subcripción" : "Tipo de subscripción del usuario.",
+        "compras" :{
+            "compras": ["Lista de compras."]
+        },
+        "registro_citas" : {
+            "citas": ["Lista de citas."]
+        },
+        "registro_egresos" : {
+            "egresos": ["Lista de egresos."]
+        },
+        "registro_ingresos" :  {
+            "ingresos": ["Lista de ingresos."]
+        }
+    }    
+}
