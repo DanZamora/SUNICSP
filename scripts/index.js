@@ -13,7 +13,7 @@ function inicio(){
 function citas(){
     const main = document.getElementsByClassName("PSI_Main")[0];
     main.innerHTML = "<br><br><br><h2>Citas</h2><form>" +
-    "<label for=\"fname\">Empleado:</label><br>" +
+    "<label for=\"fname\">Cliente:</label><br>" +
     "<input type=\"text\" id=\"fname\" name=\"fname\" value=\"\"><br>" +
     "<label for=\"lname\">Servicio:</label><br>" +
     "<input type=\"text\" id=\"lname\" name=\"lname\" value=\"\"><br>" +
@@ -28,7 +28,7 @@ function citas(){
 function ingresos(){
     const main = document.getElementsByClassName("PSI_Main")[0];
     main.innerHTML = "<br><br><br><h2>Ingresos</h2><form>" +
-    "<label for=\"fname\">Artículo</label><br>" +
+    "<label for=\"fname\">Artículo:</label><br>" +
     "<input type=\"text\" id=\"fname\" name=\"fname\" value=\"\"><br>" +
     "<label for=\"lname\">Precio:</label><br>" +
     "<input type=\"text\" id=\"lname\" name=\"lname\" value=\"\"><br>" +
