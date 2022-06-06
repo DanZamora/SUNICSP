@@ -5,7 +5,11 @@
 
 body {
     justify-content: center;
-    margin: auto;
+    margin: 0px;
+}
+
+html,body{
+    overflow-x: hidden;
 }
 
 /*
@@ -225,30 +229,25 @@ li a:hover {
         text-align: left;
         height: 300px;
     }
-
     .PSI_headerGrid {
         height: 300px;
         width: 100%;
     }
-
     #PSI_body {
         float: none;
         display: block;
         text-align: left;
         width: 100%;
     }
-
     .PSI_bodyGrid {
         width: 100%;
     }
-
     #PSI_footer {
         float: none;
         display: block;
         text-align: left;
         width: 100%;
     }
-
     .PSI_footerGrid {
         height: 400px;
         width: 100%;
@@ -257,13 +256,11 @@ li a:hover {
         font-size: medium;
         display: inline-flex;
     }
-    
     .PSI_footerGrid_item2_2 {
         font-size: medium;
         display: inline-flex;
 
     }
-    
     .PSI_footerGrid_item3_2 {
         font-size: medium;
         display: inline-flex;
@@ -271,14 +268,14 @@ li a:hover {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 380px) {
     #PSI_header {
         float: none;
         display: block;
         text-align: left;
         height: 100%;
+        
     }
-
     .PSI_headerGrid {
         height: 340px;
         width: 100%;
