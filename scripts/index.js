@@ -12,7 +12,7 @@ function inicio(){
 
 function citas(){
     const main = document.getElementsByClassName("PSI_Main")[0];
-    main.innerHTML = "<br><br><br><form action=\"/action_page.php\">" +
+    main.innerHTML = "<br><br><br><h2>Citas</h2><form action=\"/action_page.php\">" +
     "<label for=\"fname\">First name:</label><br>" +
     "<input type=\"text\" id=\"fname\" name=\"fname\" value=\"John\"><br>" +
     "<label for=\"lname\">Last name:</label><br>" +
@@ -25,23 +25,24 @@ function citas(){
 
 function ingresos(){
     const main = document.getElementsByClassName("PSI_Main")[0];
-    main.innerHTML = "<br><br><br><form action=\"/action_page.php\">" +
-    "<label for=\"fname\">First name:</label><br>" +
-    "<input type=\"text\" id=\"fname\" name=\"fname\" value=\"John\"><br>" +
-    "<label for=\"lname\">Last name:</label><br>" +
-    "<input type=\"text\" id=\"lname\" name=\"lname\" value=\"Doe\"><br>" +
-    "<br><br><br><input type=\"submit\" value=\"Reporte\"><br>" +
-    "</form>";
-}
-
-function egresos(){
-    const main = document.getElementsByClassName("PSI_Main")[0];
-    main.innerHTML = "<br><br><br><form action=\"/action_page.php\">" +
+    main.innerHTML = "<br><br><br><h2>Ingresos</h2><form action=\"/action_page.php\">" +
     "<label for=\"fname\">First name:</label><br>" +
     "<input type=\"text\" id=\"fname\" name=\"fname\" value=\"John\"><br>" +
     "<label for=\"lname\">Last name:</label><br>" +
     "<input type=\"text\" id=\"lname\" name=\"lname\" value=\"Doe\"><br>" +
     "<input type=\"submit\" value=\"Submit\"><br>" +
-    "<br><br><br><input type=\"submit\" value=\"Reporte\"><br>" +
+    "<br><br><br><h2>Reporte Ingreso</h2><br><br><br><input type=\"submit\" value=\"Reporte\"><br>" +
+    "</form>";
+}
+
+function egresos(){
+    const main = document.getElementsByClassName("PSI_Main")[0];
+    main.innerHTML = "<br><br><br><h2>Egresos</h2><form action=\"/action_page.php\">" +
+    "<label for=\"fname\">First name:</label><br>" +
+    "<input type=\"text\" id=\"fname\" name=\"fname\" value=\"John\"><br>" +
+    "<label for=\"lname\">Last name:</label><br>" +
+    "<input type=\"text\" id=\"lname\" name=\"lname\" value=\"Doe\"><br>" +
+    "<input type=\"submit\" value=\"Submit\"><br>" +
+    "<br><br><br><h2>Reporte Ingreso</h2><br><br><br><input type=\"submit\" value=\"Reporte\"><br>" +
     "</form>";
 }
