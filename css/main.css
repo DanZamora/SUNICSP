@@ -223,14 +223,17 @@ li a:hover {
 }
 
 @media screen and (max-width: 800px) {
+    html,body{
+        overflow-x: hidden;
+    }
+    
     #PSI_header {
         float: none;
         display: block;
         text-align: left;
-        height: 300px;
     }
     .PSI_headerGrid {
-        height: 300px;
+        height: 260px;
         width: 100%;
     }
     #PSI_body {
@@ -269,15 +272,18 @@ li a:hover {
 }
 
 @media screen and (max-width: 380px) {
+    html,body{
+        overflow-x: hidden;
+    }
+    
     #PSI_header {
         float: none;
         display: block;
         text-align: left;
         height: 100%;
-        
     }
     .PSI_headerGrid {
-        height: 340px;
+        height: 350px;
         width: 100%;
         
     }
