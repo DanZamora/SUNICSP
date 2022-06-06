@@ -279,8 +279,12 @@ li a:hover {
     .PSI_headerGrid {
         height: 340px;
         width: 100%;
+        
     }
-
+    li a {
+        font-size: medium;
+        padding: 4px 4px;
+    }
     #PSI_body {
         float: none;
         display: block;
