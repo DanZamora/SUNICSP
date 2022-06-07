@@ -82,7 +82,16 @@ html,body{
 /*
     MENU BAR
 */
+ul{
+    text-align: center;
+    padding: 0px 0px;
+}
 
+li a {
+    text-align: center ; 
+    font-size: medium;
+    padding: px 4px;
+}
 button{
     border-color: rgba(0, 255, 255, 0);
     color: rgb(255, 255, 255);
@@ -234,6 +243,17 @@ button:hover{
         height: 300px;
         width: 100%;
     }
+ 
+    ul{
+        text-align: center;
+        padding: 0px 0px;
+    }
+    
+    li a {
+        text-align: center ; 
+        font-size: medium;
+        padding: px 4px;
+    }
     #PSI_body {
         float: none;
         display: block;
@@ -282,13 +302,21 @@ button:hover{
     }
     .PSI_headerGrid {
         height: 300px;
-        width: 100%;
-        
+        width: 100%;   
+        margin: auto; 
     }
+ 
+    ul{
+        text-align: center;
+        padding: 0px 0px;
+    }
+    
     li a {
+        text-align: center ; 
         font-size: medium;
-        padding: 4px 4px;
+        padding: px 4px;
     }
+
     #PSI_body {
         float: none;
         display: block;
