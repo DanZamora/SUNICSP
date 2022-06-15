@@ -9,7 +9,8 @@ body {
     background-color: rgb(205, 205, 205);
 }
 
-html,body{
+html,
+body {
     overflow-x: hidden;
 }
 
@@ -24,6 +25,22 @@ html,body{
     background-color: rgb(205, 205, 205);
 }
 
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
 
 /*
 
@@ -32,7 +49,6 @@ html,body{
 */
 #PSI_header {
     height: auto;
-
     margin: auto;
     width: 100%;
 }
@@ -82,23 +98,24 @@ html,body{
 /*
     MENU BAR
 */
-ul{
+ul {
     text-align: center;
     padding: 0px 0px;
 }
 
 li a {
-    text-align: center ; 
+    text-align: center;
     font-size: medium;
     padding: px 4px;
 }
-button{
+
+button {
     border-color: rgba(0, 255, 255, 0);
     color: rgb(255, 255, 255);
     background-color: rgb(0, 14, 75);
 }
 
-button:hover{
+button:hover {
     background-color: rgb(0, 74, 75);
 }
 
@@ -112,10 +129,10 @@ button:hover{
     width: 100%;
     height: auto;
     min-height: 600px;
-    
+
 }
 
-.PSI_MainCard{
+.PSI_MainCard {
     margin: auto;
     width: 70%;
     color: black;
@@ -230,58 +247,68 @@ button:hover{
 }
 
 @media screen and (max-width: 800px) {
-    html,body{
+
+    html,
+    body {
         overflow-x: hidden;
     }
-    
+
     #PSI_header {
         float: none;
         display: block;
         text-align: left;
     }
+
     .PSI_headerGrid {
         height: 300px;
         width: 100%;
     }
- 
-    ul{
+
+    ul {
         text-align: center;
         padding: 0px 0px;
     }
-    
+
     li a {
-        text-align: center ; 
+        text-align: center;
         font-size: medium;
         padding: px 4px;
     }
+
     #PSI_body {
         float: none;
         display: block;
         text-align: left;
         width: 100%;
     }
+
     .PSI_bodyGrid {
         width: 100%;
     }
+
     #PSI_footer {
         float: none;
         display: block;
         text-align: left;
         width: 100%;
     }
+
     .PSI_footerGrid {
         height: 400px;
         width: 100%;
     }
+
     .PSI_footerGrid_item1_2 {
         font-size: medium;
         display: inline-flex;
     }
+
     .PSI_footerGrid_item2_2 {
         font-size: medium;
         display: inline-flex;
 
     }
+
     .PSI_footerGrid_item3_2 {
         font-size: medium;
         display: inline-flex;
@@ -290,8 +317,18 @@ button:hover{
 }
 
 @media screen and (max-width: 380px) {
-    html,body{
+
+    html,
+    body {
         overflow-x: hidden;
+    }
+    table {
+        display: inline;
+    }
+    
+    td,
+    th {
+        display: block;
     }
     
     #PSI_header {
@@ -300,19 +337,20 @@ button:hover{
         text-align: left;
         height: 100%;
     }
+
     .PSI_headerGrid {
         height: 300px;
-        width: 100%;   
-        margin: auto; 
+        width: 100%;
+        margin: auto;
     }
- 
-    ul{
+
+    ul {
         text-align: center;
         padding: 0px 0px;
     }
-    
+
     li a {
-        text-align: center ; 
+        text-align: center;
         font-size: medium;
         padding: px 4px;
     }
@@ -344,13 +382,13 @@ button:hover{
         font-size: medium;
         display: inline-flex;
     }
-    
+
     .PSI_footerGrid_item2_2 {
         font-size: medium;
         display: inline-flex;
 
     }
-    
+
     .PSI_footerGrid_item3_2 {
         font-size: medium;
         display: inline-flex;
