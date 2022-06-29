@@ -33,15 +33,38 @@ table {
 
 td,
 th {
-    border: 1px solid #dddddd;
+    border: 1px solid #000000;
     text-align: left;
     padding: 8px;
 }
 
-tr:nth-child(even) {
-    background-color: #dddddd;
+
+#calendar  td,
+#calendar  th {
+    border: 1px solid #ffffff;
+    color:#ffffff;
+    text-align: left;
+    padding: 8px;
 }
 
+#calendar tr {
+    background-color: rgb(0, 14, 75);}
+
+#calendar tr:nth-child(3) td:nth-child(3) {
+    background-color: #ff7552;
+}
+
+#calendar tr:nth-child(3) td:nth-child(7) {
+    background-color: #ff7552;
+}
+
+#calendar tr:nth-child(5) td:nth-child(3) {
+    background-color: #ff7552;
+}
+
+#calendar tr:nth-child(9) td:nth-child(4) {
+    background-color: #ff7552;
+}
 /*
 
     HEADER
@@ -322,13 +345,15 @@ button:hover {
     body {
         overflow-x: hidden;
     }
-    table {
-        display: inline;
+    #calendar table {
+        font-size: x-small;
+        width: 100px;
     }
     
     td,
     th {
-        display: block;
+       margin: 0px;
+       padding:1px;
     }
     
     #PSI_header {
